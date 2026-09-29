@@ -1,0 +1,16 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local test artifacts
+.env
+.env.*
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime-uploaded contract files
+uploads/*
+!uploads/.gitkeep

@@ -1,0 +1,18 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local test artifacts
+.env
+.env.*
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Locally generated RAG indexes and vector-store data
+chroma/
+chroma_db/
+*.faiss
+*.pkl
